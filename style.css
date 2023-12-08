@@ -1,0 +1,153 @@
+/* 'Inter', sans-serif;
+'Ubuntu', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f4fb;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header {
+  padding: 0 30px;
+}
+
+.header-pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.header-input {
+  border: none;
+  width: 100%;
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 10px 0 0 10px;
+  appearance: none;
+  margin-right: -15px;
+}
+
+.header-button {
+  cursor: pointer;
+  min-width: 50px;
+  min-height: 50px;
+  border: none;
+  border-radius: 100%;
+  background-color: #393939;
+  color: #f3f4fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.512);
+}
+.header-button:hover {
+  filter: brightness(1.25);
+}
+.header-data {
+  font-family: "Ubuntu", sans-serif;
+  color: #a2a2be;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.header-nome-cidade {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.temperatura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.temperatura-icon {
+  width: 125px;
+  margin-top: 15px;
+}
+.temperatura-descrissao {
+  color: #b6aef0;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 30px;
+}
+.temperatura-descrissao:first-letter {
+  text-transform: uppercase;
+}
+
+.temperatura-info {
+  margin-top: 15px;
+  color: #a2a2be;
+}
+
+.temperatura-atual {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.container-bottom {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+}
+.bottom-detalhes-temperatura {
+  display: flex;
+  margin-top: 30px;
+}
+.bottom-item-temperatura {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #a2a2be50;
+}
+
+.bottom-item-temperatura:last-child {
+  border: none;
+}
+.bottom-etiqueta {
+  color: #a2a2be;
+}
+.bottom-valor,
+.bottom2-valor {
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+.container-bottom2 {
+  display: flex;
+  margin: 30px auto;
+}
+.bottom2-item-temperatura {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .header,
+  .bottom-detalhes-temperatura,
+  .container-bottom2 {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+/* e316270620dcaf48399883b66fd91723
+e316270620dcaf48399883b66fd91723 
+
+
+01061493be940f2efaba9a9f040b88a7 */
